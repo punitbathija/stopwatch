@@ -6,7 +6,7 @@ const ProgressBar = () => {
   useEffect(() => {
     const maxWidth = document.body.clientWidth;
 
-    // console.log(maxWidth);
+    console.log(maxWidth);
     const timer = () => {
       setInterval(() => {
         setProgress((prevProgress) => {
